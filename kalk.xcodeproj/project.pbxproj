@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CED8F3A81E64BE3B00161454 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CED8F3A71E64BE3B00161454 /* main.m */; };
+		CED8F3AB1E64BE3B00161454 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CED8F3AA1E64BE3B00161454 /* AppDelegate.m */; };
+		CED8F3AE1E64BE3B00161454 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED8F3AD1E64BE3B00161454 /* ViewController.m */; };
+		CED8F3B11E64BE3C00161454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED8F3AF1E64BE3C00161454 /* Main.storyboard */; };
+		CED8F3B31E64BE3C00161454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED8F3B21E64BE3C00161454 /* Assets.xcassets */; };
+		CED8F3B61E64BE3C00161454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED8F3B41E64BE3C00161454 /* LaunchScreen.storyboard */; };
+		CED8F3C11E64BE3D00161454 /* kalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CED8F3C01E64BE3D00161454 /* kalkTests.m */; };
+		CED8F3CC1E64BE3D00161454 /* kalkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CED8F3CB1E64BE3D00161454 /* kalkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CED8F3BD1E64BE3D00161454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED8F39B1E64BE3A00161454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED8F3A21E64BE3A00161454;
+			remoteInfo = kalk;
+		};
+		CED8F3C81E64BE3D00161454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED8F39B1E64BE3A00161454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED8F3A21E64BE3A00161454;
+			remoteInfo = kalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CED8F3A31E64BE3B00161454 /* kalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED8F3A71E64BE3B00161454 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CED8F3A91E64BE3B00161454 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CED8F3AA1E64BE3B00161454 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CED8F3AC1E64BE3B00161454 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CED8F3AD1E64BE3B00161454 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CED8F3B01E64BE3C00161454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CED8F3B21E64BE3C00161454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CED8F3B51E64BE3C00161454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CED8F3B71E64BE3C00161454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED8F3BC1E64BE3D00161454 /* kalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED8F3C01E64BE3D00161454 /* kalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kalkTests.m; sourceTree = "<group>"; };
+		CED8F3C21E64BE3D00161454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED8F3C71E64BE3D00161454 /* kalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED8F3CB1E64BE3D00161454 /* kalkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kalkUITests.m; sourceTree = "<group>"; };
+		CED8F3CD1E64BE3D00161454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED8F3A01E64BE3A00161454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED8F3B91E64BE3D00161454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED8F3C41E64BE3D00161454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CED8F39A1E64BE3A00161454 = {
+			isa = PBXGroup;
+			children = (
+				CED8F3A51E64BE3B00161454 /* kalk */,
+				CED8F3BF1E64BE3D00161454 /* kalkTests */,
+				CED8F3CA1E64BE3D00161454 /* kalkUITests */,
+				CED8F3A41E64BE3B00161454 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CED8F3A41E64BE3B00161454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED8F3A31E64BE3B00161454 /* kalk.app */,
+				CED8F3BC1E64BE3D00161454 /* kalkTests.xctest */,
+				CED8F3C71E64BE3D00161454 /* kalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED8F3A51E64BE3B00161454 /* kalk */ = {
+			isa = PBXGroup;
+			children = (
+				CED8F3A91E64BE3B00161454 /* AppDelegate.h */,
+				CED8F3AA1E64BE3B00161454 /* AppDelegate.m */,
+				CED8F3AC1E64BE3B00161454 /* ViewController.h */,
+				CED8F3AD1E64BE3B00161454 /* ViewController.m */,
+				CED8F3AF1E64BE3C00161454 /* Main.storyboard */,
+				CED8F3B21E64BE3C00161454 /* Assets.xcassets */,
+				CED8F3B41E64BE3C00161454 /* LaunchScreen.storyboard */,
+				CED8F3B71E64BE3C00161454 /* Info.plist */,
+				CED8F3A61E64BE3B00161454 /* Supporting Files */,
+			);
+			path = kalk;
+			sourceTree = "<group>";
+		};
+		CED8F3A61E64BE3B00161454 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CED8F3A71E64BE3B00161454 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CED8F3BF1E64BE3D00161454 /* kalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				CED8F3C01E64BE3D00161454 /* kalkTests.m */,
+				CED8F3C21E64BE3D00161454 /* Info.plist */,
+			);
+			path = kalkTests;
+			sourceTree = "<group>";
+		};
+		CED8F3CA1E64BE3D00161454 /* kalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CED8F3CB1E64BE3D00161454 /* kalkUITests.m */,
+				CED8F3CD1E64BE3D00161454 /* Info.plist */,
+			);
+			path = kalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED8F3A21E64BE3A00161454 /* kalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED8F3D01E64BE3D00161454 /* Build configuration list for PBXNativeTarget "kalk" */;
+			buildPhases = (
+				CED8F39F1E64BE3A00161454 /* Sources */,
+				CED8F3A01E64BE3A00161454 /* Frameworks */,
+				CED8F3A11E64BE3A00161454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kalk;
+			productName = kalk;
+			productReference = CED8F3A31E64BE3B00161454 /* kalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CED8F3BB1E64BE3D00161454 /* kalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED8F3D31E64BE3D00161454 /* Build configuration list for PBXNativeTarget "kalkTests" */;
+			buildPhases = (
+				CED8F3B81E64BE3D00161454 /* Sources */,
+				CED8F3B91E64BE3D00161454 /* Frameworks */,
+				CED8F3BA1E64BE3D00161454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED8F3BE1E64BE3D00161454 /* PBXTargetDependency */,
+			);
+			name = kalkTests;
+			productName = kalkTests;
+			productReference = CED8F3BC1E64BE3D00161454 /* kalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CED8F3C61E64BE3D00161454 /* kalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED8F3D61E64BE3D00161454 /* Build configuration list for PBXNativeTarget "kalkUITests" */;
+			buildPhases = (
+				CED8F3C31E64BE3D00161454 /* Sources */,
+				CED8F3C41E64BE3D00161454 /* Frameworks */,
+				CED8F3C51E64BE3D00161454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED8F3C91E64BE3D00161454 /* PBXTargetDependency */,
+			);
+			name = kalkUITests;
+			productName = kalkUITests;
+			productReference = CED8F3C71E64BE3D00161454 /* kalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED8F39B1E64BE3A00161454 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = iPodium;
+				TargetAttributes = {
+					CED8F3A21E64BE3A00161454 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NH45XMU2ZT;
+						ProvisioningStyle = Automatic;
+					};
+					CED8F3BB1E64BE3D00161454 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NH45XMU2ZT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CED8F3A21E64BE3A00161454;
+					};
+					CED8F3C61E64BE3D00161454 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NH45XMU2ZT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CED8F3A21E64BE3A00161454;
+					};
+				};
+			};
+			buildConfigurationList = CED8F39E1E64BE3A00161454 /* Build configuration list for PBXProject "kalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CED8F39A1E64BE3A00161454;
+			productRefGroup = CED8F3A41E64BE3B00161454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED8F3A21E64BE3A00161454 /* kalk */,
+				CED8F3BB1E64BE3D00161454 /* kalkTests */,
+				CED8F3C61E64BE3D00161454 /* kalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED8F3A11E64BE3A00161454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED8F3B61E64BE3C00161454 /* LaunchScreen.storyboard in Resources */,
+				CED8F3B31E64BE3C00161454 /* Assets.xcassets in Resources */,
+				CED8F3B11E64BE3C00161454 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED8F3BA1E64BE3D00161454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED8F3C51E64BE3D00161454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED8F39F1E64BE3A00161454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED8F3AE1E64BE3B00161454 /* ViewController.m in Sources */,
+				CED8F3AB1E64BE3B00161454 /* AppDelegate.m in Sources */,
+				CED8F3A81E64BE3B00161454 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED8F3B81E64BE3D00161454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED8F3C11E64BE3D00161454 /* kalkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED8F3C31E64BE3D00161454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED8F3CC1E64BE3D00161454 /* kalkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CED8F3BE1E64BE3D00161454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED8F3A21E64BE3A00161454 /* kalk */;
+			targetProxy = CED8F3BD1E64BE3D00161454 /* PBXContainerItemProxy */;
+		};
+		CED8F3C91E64BE3D00161454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED8F3A21E64BE3A00161454 /* kalk */;
+			targetProxy = CED8F3C81E64BE3D00161454 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CED8F3AF1E64BE3C00161454 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED8F3B01E64BE3C00161454 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CED8F3B41E64BE3C00161454 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED8F3B51E64BE3C00161454 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CED8F3CE1E64BE3D00161454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CED8F3CF1E64BE3D00161454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED8F3D11E64BE3D00161454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NH45XMU2ZT;
+				INFOPLIST_FILE = kalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IP.kalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CED8F3D21E64BE3D00161454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NH45XMU2ZT;
+				INFOPLIST_FILE = kalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IP.kalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CED8F3D41E64BE3D00161454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NH45XMU2ZT;
+				INFOPLIST_FILE = kalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IP.kalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kalk.app/kalk";
+			};
+			name = Debug;
+		};
+		CED8F3D51E64BE3D00161454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NH45XMU2ZT;
+				INFOPLIST_FILE = kalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IP.kalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kalk.app/kalk";
+			};
+			name = Release;
+		};
+		CED8F3D71E64BE3D00161454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NH45XMU2ZT;
+				INFOPLIST_FILE = kalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IP.kalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kalk;
+			};
+			name = Debug;
+		};
+		CED8F3D81E64BE3D00161454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NH45XMU2ZT;
+				INFOPLIST_FILE = kalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IP.kalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED8F39E1E64BE3A00161454 /* Build configuration list for PBXProject "kalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED8F3CE1E64BE3D00161454 /* Debug */,
+				CED8F3CF1E64BE3D00161454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED8F3D01E64BE3D00161454 /* Build configuration list for PBXNativeTarget "kalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED8F3D11E64BE3D00161454 /* Debug */,
+				CED8F3D21E64BE3D00161454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CED8F3D31E64BE3D00161454 /* Build configuration list for PBXNativeTarget "kalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED8F3D41E64BE3D00161454 /* Debug */,
+				CED8F3D51E64BE3D00161454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CED8F3D61E64BE3D00161454 /* Build configuration list for PBXNativeTarget "kalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED8F3D71E64BE3D00161454 /* Debug */,
+				CED8F3D81E64BE3D00161454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CED8F39B1E64BE3A00161454 /* Project object */;
+}
